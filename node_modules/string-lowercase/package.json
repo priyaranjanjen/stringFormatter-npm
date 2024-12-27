@@ -1,0 +1,14 @@
+{
+  "name": "string-lowercase",
+  "version": "1.0.0",
+  "description": "A utility to convert strings to lowercase using TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["string", "lowercase", "typescript", "utility"],
+  "author": "Sahil",
+  "license": "MIT",
+  "scripts": {
+      "build": "tsc",
+      "test": "node dist/test.js"
+  }
+}
