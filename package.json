@@ -1,19 +1,14 @@
 {
-  "name": "stringformatter-npm",
+  "name": "string-lowercase",
   "version": "1.0.0",
-  "main": "index.ts",
-  "type": "module",
+  "description": "A utility to convert strings to lowercase using TypeScript.",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "keywords": ["string", "lowercase", "typescript", "utility"],
+  "author": "Sahil",
+  "license": "MIT",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "node index.ts"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": "",
-  "devDependencies": {
-    "typescript": "^5.7.2"
-  },
-  "dependencies": {
-    "string-lowercase": "^1.0.0"
+      "build": "tsc",
+      "test": "node dist/test.js"
   }
 }
