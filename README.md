@@ -10,3 +10,9 @@ Install the package using `npm`:
 
 ```bash
 npm install string-lowercase
+
+## Use
+
+```import { toLowercase } from 'string-lowercase';
+
+console.log(toLowercase('HELLO NPM!'));```
